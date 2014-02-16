@@ -1,5 +1,4 @@
 
-
 # extname
 
 cli extname
@@ -8,7 +7,7 @@ cli extname
 
     $ make install
 
-## Example
+## Examples
 
 ```
 $ extname ~/dir/test.c
@@ -20,6 +19,11 @@ $ extname ~/dir/test.c hi .nope
 .c
 
 .nope
+```
+
+```
+$ find . | xargs extname | sort | uniq
+# generate a list of all the extensions in a folder and its subfolders
 ```
 
 ## License
