@@ -1,4 +1,3 @@
-
 # extname
 
 cli extname
@@ -22,7 +21,7 @@ $ extname ~/dir/test.c hi .nope
 ```
 
 ```
-$ find . | xargs extname | sort | uniq
+$ find . -print0 | xargs -0 extname | sort | uniq
 # generate a list of all the extensions in a folder and its subfolders
 ```
 
