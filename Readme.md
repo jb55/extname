@@ -1,4 +1,4 @@
-# extname
+# extname [![Build Status](https://secure.travis-ci.org/jb55/cextname.png?branch=master)](https://travis-ci.org/jb55/cextname)
 
 cli extname
 
