@@ -4,7 +4,14 @@ cli extname
 
 ## Installation
 
-    $ make install
+  Install with [clib](https://github.com/clibs/clib):
+
+    $ clib install jb55/extname
+
+  Install with make:
+
+    $ git clone https://github.com/jb55/extname.git
+    $ cd extname && make install
 
 ## Examples
 
