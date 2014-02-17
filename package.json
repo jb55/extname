@@ -4,6 +4,9 @@
   "repo": "jb55/extname",
   "description": "cli extname",
   "keywords": ["extname", "extension"],
+  "dependencies": {
+    "jb55/extname.c": "*"
+  },
   "license": "MIT",
   "install": "make install"
 }

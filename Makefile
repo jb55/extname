@@ -8,7 +8,7 @@ install: extname
 	install $< /usr/local/bin
 
 deps:
-	clib install jb55/cextname
+	clib install
 
 clean:
 	rm -f extname
