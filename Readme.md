@@ -1,6 +1,6 @@
 # extname [![Build Status](https://secure.travis-ci.org/jb55/extname.c.png?branch=master)](https://travis-ci.org/jb55/extname.c)
 
-cli extname
+A small command line utility that gets the file extensions of its arguments.
 
 ## Installation
 
