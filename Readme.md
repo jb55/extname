@@ -10,8 +10,8 @@ A small command line utility that gets the file extensions of its arguments.
 
   Install with make:
 
-    $ git clone https://github.com/jb55/extname.git
-    $ cd extname && make install
+    $ git clone https://github.com/jb55/extname.git /tmp/extname
+    $ cd /tmp/extname && make install
 
 ## Examples
 
