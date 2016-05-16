@@ -7,7 +7,8 @@ extname: extname.c deps/extname/extname.c
 	$(CC) -Ideps -o $@ $^
 
 install: extname
-	install $< $(PREFIX)/bin
+	mkdir -p $(PREFIX)/bin
+	install extname $(PREFIX)/bin/extname
 
 deps:
 	clib install
