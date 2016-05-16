@@ -1,11 +1,13 @@
 
+PREFIX=/usr/local
+
 all: extname
 
 extname: extname.c deps/extname/extname.c
 	$(CC) -Ideps -o $@ $^
 
 install: extname
-	install $< /usr/local/bin
+	install $< $(PREFIX)/bin
 
 deps:
 	clib install
